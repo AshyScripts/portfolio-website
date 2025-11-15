@@ -5,6 +5,7 @@
     "build": "hugo --gc --minify"
   },
   "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0-alpha.25",
     "tailwindcss": "^4.1.17"
   }
 }
