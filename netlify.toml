@@ -1,20 +1,21 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify --logLevel debug"
+  command = "npm install && hugo --gc --minify --logLevel debug"
 
 [build.environment]
   HUGO_VERSION = "0.152.2"
   HUGO_ENV = "production"
   GO_VERSION = "1.21"
+  NODE_VERSION = "22"
 
 [context.production.environment]
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug"
+  command = "npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --logLevel debug"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug"
+  command = "npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL --logLevel debug"
 
 [[headers]]
   for = "/*"
