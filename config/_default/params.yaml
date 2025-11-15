@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: indigo
+  mode: dark
+  color: slate
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Ashkan Ghanavati - PhD Candidate specializing in Machine Learning for Materials Science at Northeastern University. Bridging experimental mechanics and computational methods.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -33,28 +33,15 @@ header:
     block: 'navbar'
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false  # Remove the light/dark toggle since we're forcing dark
     logo:
-      text: 'Your Name'
+      text: 'Ashkan Ghanavati'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Ashkan Ghanavati'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
 # Localization
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-
-# Site features
-features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
