@@ -26,6 +26,18 @@ sections:
         </div>
     design:
       columns: '1'
+  - block: markdown
+    content:
+      text: |-
+        <div style="width: 100%; max-width: 1200px; margin: 0 auto;">
+          <img src="/uploads/cnt-hero.jpg" alt="Carbon nanotube fiber assembly under SEM" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+          <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">Carbon nanotube fiber assembly - Scanning Electron Microscopy</p>
+        </div>
+    design:
+      columns: '1'
+      css_class: ''
+      spacing:
+        padding: ['4rem', '0', '2rem', '0']
   - block: resume-skills
     content:
       title: Technical Skills
