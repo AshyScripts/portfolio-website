@@ -19,6 +19,20 @@ sections:
   - block: markdown
     content:
       text: |-
+        <div style="width: 100%; max-width: 1000px; margin: -2rem auto 0 auto; padding: 0 2rem;">
+          <img src="/uploads/cnt-hero.jpg" alt="Carbon nanotube fiber assembly under SEM" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
+          <p style="text-align: center; margin-top: 1rem; margin-bottom: 0; font-size: 0.9rem; color: #94a3b8; opacity: 0.8;">Carbon nanotube fiber assembly - Scanning Electron Microscopy</p>
+        </div>
+    design:
+      columns: '1'
+      css_class: 'hbx-bg-gradient'
+      background:
+        color: ''
+      spacing:
+        padding: ['0', '0', '1rem', '0']
+  - block: markdown
+    content:
+      text: |-
         <div style="text-align: center; margin: 2rem 0;">
           <a href="/uploads/ashkan-ghanavati-resume.pdf" target="_blank" style="display: inline-block; padding: 12px 32px; background-color: #6366f1; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; transition: background-color 0.2s;">
             📄 Download CV
@@ -26,18 +40,6 @@ sections:
         </div>
     design:
       columns: '1'
-  - block: markdown
-    content:
-      text: |-
-        <div style="width: 100%; max-width: 1200px; margin: 0 auto;">
-          <img src="/uploads/cnt-hero.jpg" alt="Carbon nanotube fiber assembly under SEM" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
-          <p style="text-align: center; margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">Carbon nanotube fiber assembly - Scanning Electron Microscopy</p>
-        </div>
-    design:
-      columns: '1'
-      css_class: ''
-      spacing:
-        padding: ['4rem', '0', '2rem', '0']
   - block: resume-skills
     content:
       title: Technical Skills
